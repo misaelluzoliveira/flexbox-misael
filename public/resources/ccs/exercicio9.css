@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:sans-serif
+    }
+
+.pai{
+    width: 960px;
+    height: 600px;
+    margin:10px auto;
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    align-items:flex-start;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    
+
+}
+.filho{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #fff;
+    background-color: red;
+}

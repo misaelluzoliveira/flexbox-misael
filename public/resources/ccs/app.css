@@ -1,0 +1,36 @@
+*{margin:0;
+padding: 0;
+box-sizing:border-box;
+font-family:sans-serif
+}
+
+.pai{
+    width: 500px;
+    height: 500px;
+    margin:10px auto;
+    display: flex;
+    justify-content: flex-start;
+    background-color: black;
+    align-items:flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    
+
+}
+.filho:nth-child(1){
+    background-color: lawngreen;
+    align-self: flex-end;
+}
+.filho:nth-child(4){
+    background-color: lightblue;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 150px;
+    flex:1 0 150px;
+}
+.filho{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #fff;
+    background-color: red;
+}
